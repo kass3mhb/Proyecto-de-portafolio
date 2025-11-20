@@ -1,5 +1,7 @@
 
 import 'package:flutter/material.dart';
+import 'package:portafolio_prog/routes/app_routes.dart';
+
 
 void main() => runApp(const MyApp());
 
@@ -11,6 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Kassem - Portfolio',
       debugShowCheckedModeBanner: false,
+      initialRoute: AppRoutes.initialRoute,
+      routes: AppRoutes.routes,
     ); 
   }
 }

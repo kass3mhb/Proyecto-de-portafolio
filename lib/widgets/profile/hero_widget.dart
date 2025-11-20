@@ -41,7 +41,7 @@ class HeroWidget extends StatelessWidget {
                   ),
                   minimumSize: const Size(0, 36), 
                 ),
-                onPressed: () {},
+                onPressed: () { Navigator.pushNamed(context, '/contact'); },
                 child: const Text(
                   'Contacta conmigo',
                   style: TextStyle(
@@ -61,9 +61,9 @@ class HeroWidget extends StatelessWidget {
                   ),
                   minimumSize: const Size(0, 36),
                 ),
-                onPressed: () {},
+                onPressed: () { Navigator.pushNamed(context, '/hobbies'); },
                 child: const Text(
-                  'más sobre mi',
+                  'Más sobre mi',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 14,
@@ -74,23 +74,21 @@ class HeroWidget extends StatelessWidget {
           ),
 
           const SizedBox(height: 25),
-          Row(
+                    Row(
             children: [
-              IconButton(
-                onPressed: () {},
-                iconSize: 28,
-                icon: const Icon(Icons.camera_alt), // github
-                color: Colors.black,
+              Image.asset(
+                'assets/github.png',
+                width: 32,
+                height: 32,
               ),
-              const SizedBox(width: 10),
-              IconButton(
-                onPressed: () {},
-                iconSize: 28,
-                icon: const Icon(Icons.camera_alt), // instagram
-                color: Colors.black,
+              const SizedBox(width: 16),
+              Image.asset(
+                'assets/instagram.png',
+                width: 34,
+                height: 34,
               ),
             ],
-          )
+          ),
         ],
       ),
     );

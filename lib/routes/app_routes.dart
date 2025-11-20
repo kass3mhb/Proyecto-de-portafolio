@@ -8,12 +8,13 @@ class AppRoutes {
 
   static final homeOptions = <HomeOptions>[
     HomeOptions(route: '/home', icon: Icons.home_filled, name: 'Inicio', screen: const HomeScreen()),
-    HomeOptions(route: '/hobbies',icon: Icons.sports_esports, name: 'Hobbies',screen: const HobbiesScreen(),
-    ),
+    HomeOptions(route: '/hobbies',icon: Icons.sports_esports, name: 'Hobbies',screen: const HobbiesScreen()),
+    HomeOptions(route: '/contact',icon: Icons.sports_esports, name: 'Hobbies',screen: const ContactScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> routes = {
     '/home'    : (BuildContext context) => const HomeScreen(),
     '/hobbies' : (BuildContext context) => const HobbiesScreen(),
+    '/contact' : (BuildContext context) => const ContactScreen(),
   };
 }

@@ -7,10 +7,8 @@ class HobbiesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Hobbies'),
+        title: const Text('Volver'),
       ),
     );
   }
 }
-
-// asi mientras tanto

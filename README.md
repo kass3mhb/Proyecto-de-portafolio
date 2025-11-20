@@ -1,16 +1,16 @@
-# portafolio_prog
+## 🚀 Proyecto portafolio personal
 
-A new Flutter project.
+Autor: Kassem Hojeige
+Desarrollado como proyecto personal para la materia de programación 3 usando Flutter.
 
-## Getting Started
+# Descripción general 
 
-This project is a starting point for a Flutter application.
+Este proyecto es una aplicación móvil construida con Flutter que funciona como un portafolio personal. Su objetivo es mostrar de manera limpia y moderna información sobre mi persona dividido en pantallas o vistas, se pueden apreciar las siguientes vistas:
 
-A few resources to get you started if this is your first Flutter project:
+1. Datos personales
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Hobbies y gustos
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Contacto
+
+El diseño sigue un estilo minimalista, inspirado en portfolios modernos y organizado usando widgets propios reutilizables como se explicaron en clase.
